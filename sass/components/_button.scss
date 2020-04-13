@@ -1,0 +1,45 @@
+.btn {
+    display: flex;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+}
+
+.btn--red {
+    color: #ffffff;
+    background-color: #ed1c24;
+    padding: 2rem 2.2rem;
+}
+
+.btn--transparent {
+    background-color: #ffffff;
+    color: #6b7683;
+    margin: 2rem 2.2rem;;
+}
+
+.btn__logo-box {
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-right: 1rem;
+}
+
+.btn__icon {
+    width: 100%;
+    height: 100%;
+}
+
+.capability__logo-box {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.capability__icon {
+    height: 100%;
+    width: 100%;
+}

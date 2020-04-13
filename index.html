@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    
     <title>Банк ВТБ (ПАО) (Объединенные ВТБ , ВТБ24 и Банк Москвы)</title>
     <link rel="stylesheet" href="css/style.css">
     
@@ -11,34 +13,123 @@
     <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32"/>
     
     <link rel="preload" href="/fonts/helveticaregular-webfont.woff" as="font" crossorigin="anonymous"/>
+    <link rel="preload" href="/fonts/HelveticaNeueCyr-Thin.woff" as="font" crossorigin="anonymous"/>
+    <link rel="preload" href="/fonts/HelveticaNeueCyr-Light.woff" as="font" crossorigin="anonymous"/>
 </head>
 <body>
 <header>
-    <div class="navigation">
-        <nav class="navigation__top">
-            <div class="navigation__top-after">
-                <div class="navigation__top-left">Left</div>
-                <div class="navigation__top-right">Right</div>
-            </div>
-        </nav>
-        <nav class="navigation__main"></nav>
-    </div>
+    <div class="navigation-header"></div>
 </header>
-<h1>Hello world</h1>
-<div class="test-css">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias architecto aspernatur
-    beatae cum dignissimos dolorum enim esse ex in itaque iusto, laboriosam magni minima necessitatibus nihil non
-    officia officiis perspiciatis porro praesentium reiciendis repellendus temporibus veniam, vitae. Animi aperiam autem
-    consectetur eaque esse incidunt maxime modi perferendis praesentium quas quod recusandae tenetur vel, veniam
-    voluptate. Animi autem fugiat fugit ipsa magni molestiae quae sed. Ab, animi aperiam commodi consequuntur debitis
-    deleniti deserunt dolor dolorem doloribus fuga illo magni neque nihil pariatur, quis, quisquam ut veritatis
-    voluptate! Beatae cumque, debitis dolore dolorum ea facere ipsa iure libero praesentium qui quos repellendus,
-    reprehenderit soluta ullam unde. At dignissimos non perferendis quo sed tenetur, voluptate. Aliquid animi eos
-    facilis incidunt omnis quas. Cumque dignissimos dolorem maiores nisi, obcaecati officiis pariatur. Harum hic modi
-    molestiae molestias numquam quasi reiciendis sunt veniam! Alias amet aut commodi dicta dolore est, expedita, fugiat
-    labore laboriosam nulla pariatur placeat provident quae quas quis reiciendis repudiandae saepe totam! Accusamus ad
-    amet aspernatur blanditiis consectetur distinctio illo laborum magnam minus nulla quod, recusandae rem rerum sequi,
-    soluta totam voluptatum. Aliquam est incidunt nostrum unde. Alias commodi exercitationem molestias natus voluptates!
-    Atque autem cupiditate dolorum enim, ex id non praesentium.
-</div>
+<main>
+    <div class="container">
+        <nav class="navigation-inline">
+            <a id="nav-about" class="navigation-inline__item navigation-inline__item--active" href="/">О карте</a>
+            <a id="nav-how-to" class="navigation-inline__item" href="/">Как пользоваться</a>
+        </nav>
+        
+        <section class="section-description">
+            <div class="description">
+                <div class="description__card"></div>
+                <div class="description__container">
+                    <div>
+                        <h2>
+                            Дебетовая Мультикарта ВТБ
+                        </h2>
+                        <div class="description__text">
+                            Оформите дебетовую Мультикарту ВТБ и выбирайте новую опцию каждый месяц: Cash Back в
+                            бонусных
+                            рублях или милях, процент на остаток, скидка к ставке по кредитам
+                        </div>
+                    </div>
+                    <div class="description__actions">
+                        <a class="btn btn--red" href="/">Оформить карту</a>
+                        <a class="btn btn--transparent" href="/">
+                            <div class="btn__logo-box">
+                                <img class="btn__icon" src="img/pen.png" alt="X">
+                            </div>
+                            Проверить готовность
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="description__features">
+                <div>
+                    <div class="description__feature-name">Вознаграждения за покупки</div>
+                    <div class="description__feature-text">6 опций</div>
+                </div>
+                <div>
+                    <div class="description__feature-name">Cash back от партнеров</div>
+                    <div class="description__feature-text">До 15%</div>
+                </div>
+                <div>
+                    <div class="description__feature-name">Обслуживание</div>
+                    <div class="description__feature-text">0 ₽</div>
+                </div>
+                <div>
+                    <div class="description__feature-name">Cash back</div>
+                    <div class="description__feature-text">До 4%</div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-capabilities">
+            <h2 class="capabilities__header">Возможности Мультикарты</h2>
+            <div class="capability">
+                <div class="capability__logo-box">
+                    <img class="capability__icon" src="img/pen.png" alt="X">
+                </div>
+                <div class="capability__description">0 рублей за обслуживание - при сумме покупок по карте от 5 000 ₽ в месяц</div>
+            </div>
+            <div class="capability">
+                <div class="capability__logo-box">
+                    <img class="capability__icon" src="img/pen.png" alt="X">
+                </div>
+                <div class="capability__description">0 рублей за выпуск дополнительных карт - до 5 карт к одному мастер-счету</div>
+            </div>
+            <div class="capability">
+                <div class="capability__logo-box">
+                    <img class="capability__icon" src="img/pen.png" alt="X">
+                </div>
+                <div class="capability__description">0 рублей за пополнение счета с карт других банков - через ВТБ-Онлайн</div>
+            </div>
+            <div class="capability">
+                <div class="capability__logo-box">
+                    <img class="capability__icon" src="img/pen.png" alt="X">
+                </div>
+                <div class="capability__description">0 рублей пуш-уведомления через ВТБ-Онлайн</div>
+            </div>
+            <div class="capability">
+                <div class="capability__logo-box">
+                    <img class="capability__icon" src="img/pen.png" alt="X">
+                </div>
+                <div class="capability__description">QR-код для оплаты ЖКХ, налогов, штрафов, пошлин в Онлайн-банке</div>
+            </div>
+            <div class="capability">
+                <div class="capability__logo-box">
+                    <img class="capability__icon" src="img/pen.png" alt="X">
+                </div>
+                <div class="capability__description">до 10% скидка к ставке по кредиту наличными, ипотеке или кредитной Мультикарте</div>
+            </div>
+            <div class="capability">
+                <div class="capability__logo-box">
+                    <img class="capability__icon" src="img/pen.png" alt="X">
+                </div>
+                <div class="capability__description">до 1,5% дополнительный доход на сумму вклада</div>
+            </div>
+            <div class="capability">
+                <div class="capability__logo-box">
+                    <img class="capability__icon" src="img/pen.png" alt="X">
+                </div>
+                <div class="capability__description">до 3% кэшбэк милями</div>
+            </div>
+            <div class="capability">
+                <div class="capability__logo-box">
+                    <img class="capability__icon" src="img/pen.png" alt="X">
+                </div>
+                <div class="capability__description">до 4% кэшбэк бонусными рублями</div>
+            </div>
+        </section>
+    </div>
+</main>
 </body>
 </html>
