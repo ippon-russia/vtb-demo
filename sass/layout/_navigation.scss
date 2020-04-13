@@ -1,0 +1,30 @@
+.navigation {
+    //width: 100%;
+    //color: white;
+}
+
+.navigation__top {
+    background-color: #0a2896;
+    font-size: 13px;
+    border-bottom: 1px solid #1f3d82;
+    
+    //box-sizing: border-box;
+    //display: block;
+    height: 4rem;
+}
+
+.navigation__top-after {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.navigation__top-left {
+   float: left;
+}
+
+.navigation__top-right {
+   float: right;
+}

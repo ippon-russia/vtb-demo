@@ -1,0 +1,18 @@
+/*All browser reset*/
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    /*Enforce inheritance of box-sizing to inherit it from plugins*/
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;  /* 1rem = 10px; 10px / 16px = 62.5% */
+}
+
+body {
+    /*Borders and padding not added to box width/height*/
+    box-sizing: border-box;
+}
