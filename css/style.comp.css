@@ -41,7 +41,7 @@ body {
 
 .navigation-inline__item {
   text-decoration: none;
-  font-family: HelveticaNeueCyr, sans-serif;
+  font-family: HelveticaNeueCyrLight, sans-serif;
   font-size: 2.2rem;
   font-weight: 300;
   font-stretch: normal;
@@ -77,7 +77,7 @@ body {
   max-height: 48rem; }
 
 .description__container h2 {
-  font-family: HelveticaNeueCyr, sans-serif;
+  font-family: HelveticaNeueCyrLight, sans-serif;
   font-size: 4.2rem;
   font-weight: 300;
   font-stretch: normal;
@@ -126,7 +126,7 @@ body {
   color: #2f3441; }
 
 .description__feature-text {
-  font-family: HelveticaNeueCyr, sans-serif;
+  font-family: HelveticaNeueCyrLight, sans-serif;
   font-size: 3.2rem;
   font-weight: 300;
   font-stretch: normal;
@@ -175,7 +175,7 @@ body {
   width: 100%; }
 
 .capabilities__header {
-  font-family: HelveticaNeueCyr, sans-serif;
+  font-family: HelveticaNeueCyrLight, sans-serif;
   font-size: 3.2rem;
   font-weight: 300;
   font-stretch: normal;
