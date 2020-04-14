@@ -1,7 +1,7 @@
 @import "base/base";
 @import "base/typography";
 
-@import "layout/layout";
+@import "layout/header";
 @import "layout/navigation";
 
 @import "pages/debit-card";
@@ -9,3 +9,4 @@
 @import "components/description";
 @import "components/button";
 @import "components/capabilities";
+@import "components/options";

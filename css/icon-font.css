@@ -11,3 +11,9 @@
   src: url("fonts/HelveticaNeueCyr-Light.woff") format('woff');
   font-weight: normal;
 }
+
+@font-face {
+  font-family: "HelveticaNeueCyr-Roman";
+  src: url("fonts/HelveticaNeueCyr-Roman.woff") format('woff');
+  font-weight: normal;
+}
