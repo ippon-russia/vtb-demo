@@ -1,24 +1,23 @@
-//.capabilities__header {
-//    font-family: HelveticaNeueCyrLight, sans-serif;
-//    font-size: 3.2rem;
-//    font-weight: 300;
-//    font-stretch: normal;
-//    font-style: normal;
-//    line-height: 1.5;
-//    letter-spacing: 0.4px;
-//    color: #2f3441;
-//    margin-bottom: 1.8rem;
-//}
+.capabilities__container {
+    width: 100%;
+    display: flex;
+    margin-top: 6.4rem;
+}
+
+.capabilities__column {
+    flex: 50%;
+}
 
 .capability {
     display: flex;
-    align-items: center;
-    margin-bottom: 1.6rem;
+    align-items: flex-start;
+    margin-bottom: 3rem;
 }
 
 .capability__logo-box {
-    width: 1.8rem;
-    height: 1.8rem;
+    min-width: 2.4rem;
+    min-height: 2.4rem;
+    margin-top: .4rem;
 }
 
 .capability__icon {
@@ -27,13 +26,13 @@
 }
 
 .capability__description {
-    font-family: HelveticaNeueCyr, sans-serif;
-    font-size: 1.8rem;
+    margin-left: 2.6rem;
+    font-family: HelveticaNeueCyrThin, sans-serif;
+    font-size: 18px;
     font-weight: 100;
     font-stretch: normal;
     font-style: normal;
-    line-height: 2.33;
+    line-height: 1.5;
     letter-spacing: 0.4px;
     color: #2f3441;
-    margin-left: 3.5rem;
 }

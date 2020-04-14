@@ -9,6 +9,8 @@
     line-height: 1.33;
     letter-spacing: 0.4px;
     text-decoration: none;
+    border: none;
+    cursor: pointer;
 }
 
 .btn--red {
@@ -24,8 +26,8 @@
 }
 
 .btn__logo-box {
-    width: 1.4rem;
-    height: 1.4rem;
+    width: 2.4rem;
+    height: 2.4rem;
     margin-right: 1rem;
 }
 

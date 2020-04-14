@@ -1,13 +1,15 @@
 .options__description {
-    max-width: 50rem;
+    width: 52rem;
     margin-bottom: 6.4rem;
+    text-align: center;
 }
 
 .options__container {
+    width: 100%;
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
-    min-height: 78rem;
+    height: 78rem;
 }
 
 .option {
@@ -15,17 +17,74 @@
     flex-direction: column;
     width: 34rem;
     height: 34rem;
-    background-color: #c4c4c4;
+    background-color: #f3f7fa;
     padding: 2.8rem 5.4rem 5rem 5.4rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.option__img {
+    position: absolute;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.option__img-1 {
+    background-image: url(../img/image-34.png);
+    top: 0;
+    left: 55%;
+    width: 45%;
+    height: 50%;
+}
+
+.option__img-2 {
+    background-image: url(../img/image-35.png);
+    top: -3%;
+    left: 60%;
+    width: 40%;
+    height: 50%;
+}
+
+.option__img-3 {
+    background-image: url(../img/image-26.png);
+    top: -5%;
+    left: 67%;
+    width: 33%;
+    height: 50%;
+}
+
+.option__img-4 {
+    background-image: url(../img/image-bag.png);
+    top: -8%;
+    left: 70%;
+    width: 30%;
+    height: 50%;
+}
+
+.option__img-5 {
+    background-image: url(../img/image-33.png);
+    top: -22%;
+    left: 68%;
+    width: 32%;
+    height: 60%;
+    transform: scale(1.5);
+}
+
+.option__img-6 {
+    background-image: url(../img/image-31.png);
+    top: -8%;
+    left: 65%;
+    width: 35%;
+    height: 50%;
 }
 
 .option__title {
     font-family: HelveticaNeueCyrLight, sans-serif;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
-    line-height: 3.39;
+    line-height: 2;
     letter-spacing: 0.4px;
     color: #2f3441;
     margin-bottom: auto;
