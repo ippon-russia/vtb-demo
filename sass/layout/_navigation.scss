@@ -4,6 +4,22 @@
     margin-top: 3rem;
 }
 
+.navigation-inline-left {
+    justify-content: flex-start;
+    
+    & > * {
+        margin-right: 3rem;
+    }
+}
+
+.navigation-inline-right {
+    justify-content: flex-end;
+    
+    & > * {
+        margin-left: 3rem;
+    }
+}
+
 .navigation-inline__item {
     text-decoration: none;
     font-family: HelveticaNeueCyrLight, sans-serif;
@@ -16,7 +32,6 @@
     color: #616161;
     white-space: nowrap;
     padding-bottom: 1rem;
-    margin-left: 3rem;
 }
 
 .navigation-inline__item--active {
