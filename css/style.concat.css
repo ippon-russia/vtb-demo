@@ -164,6 +164,12 @@ body {
   justify-content: space-between;
   margin: 8rem 0; }
 
+.request {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5.6rem 0; }
+
 .description__blocks {
   display: flex; }
 
@@ -541,4 +547,11 @@ body {
 .action__img-box {
   max-width: 5.6rem;
   max-height: 5.6rem;
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+  cursor: pointer; }
+
+.request__steps {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  margin: 4rem 0; }
