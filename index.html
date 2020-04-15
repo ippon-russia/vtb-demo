@@ -24,11 +24,14 @@
     <section class="section-order">
         <div class="order">
             <nav class="navigation-inline navigation-inline-left">
-                <a id="nav-about2" class="navigation-inline__item navigation-inline__item--active white-text" href=".">О карте</a>
+                <a id="nav-about2" class="navigation-inline__item navigation-inline__item--active white-text" href=".">О
+                    карте</a>
                 <a id="nav-how-to2" class="navigation-inline__item white-text" href=".">Как пользоваться</a>
             </nav>
             <h1 class="heading-primary order__header">Дебетовая Мультикарта</h1>
-            <div class="paragraph white-text">Оформите дебетовую Мультикарту ВТБ и выбирайте новую опцию каждый месяц: кэшбэк в бонусных рублях или милях, процент на остаток, скидка к ставке по кредитам</div>
+            <div class="paragraph white-text">Оформите дебетовую Мультикарту ВТБ и выбирайте новую опцию каждый месяц:
+                кэшбэк в бонусных рублях или милях, процент на остаток, скидка к ставке по кредитам
+            </div>
             <div class="order__actions">
                 <a class="btn btn--red"
                    href="https://ankety.vtb.ru/cards/request/?&_ga=2.253619849.1006683297.1586893180-1264020494.1586089851#/1601/00/01/01/03"
@@ -143,7 +146,7 @@
             </div>
             <div class="privilege__info">
                 <h3 class="heading-third">Еще больше бонусов для тех, кто много тратит</h3>
-                <div class="paragraph">Оформите Мультикарту Привилегия </div>
+                <div class="paragraph">Оформите Мультикарту Привилегия</div>
                 <a class="paragraph blue-text privilege__link"
                    href="https://www.vtb.ru/privilegia/multikarta-privilegiya" target="_blank">
                     Узнать больше
@@ -218,8 +221,8 @@
                 </div>
             </a>
             <a class="option"
-                 href="https://www.vtb.ru/personal/karty/informacija-dlja-derzhatelej-kart/bonusnye-opcii/restorany/"
-                 target="_blank">
+               href="https://www.vtb.ru/personal/karty/informacija-dlja-derzhatelej-kart/bonusnye-opcii/restorany/"
+               target="_blank">
                 <div class="option__title">“Cash Back и<br>Рестораны”</div>
                 <div class="option__img option__img-6"></div>
                 <div class="option__value">
@@ -232,7 +235,7 @@
             </a>
         </div>
     </section>
-
+    
     <div class="container">
         <section class="features">
             <div class="features__image"></div>
@@ -288,7 +291,8 @@
         </section>
         
         <nav class="navigation-inline navigation-inline-left">
-            <a id="how-to" class="navigation-inline__item navigation-inline__item--active grey-text" href=".">Как оформить
+            <a id="how-to" class="navigation-inline__item navigation-inline__item--active grey-text" href=".">Как
+                оформить
                 карту</a>
             <a id="docs" class="navigation-inline__item grey-text" href=".">Документы</a>
             <a id="tax" class="navigation-inline__item grey-text" href=".">Тарифы и условия</a>
@@ -319,21 +323,65 @@
         </section>
     </div>
     
-    <div class="full-width">
-        <div class="container">
-            <section class="request">
-                <h2 class="heading-secondary">Заявка на выпуск дебетовой Мультикарты</h2>
-                <div class="request__steps">
-                    <div class="paragraph">Шаг</div>
-                    <input id="step-1" type="radio" name="step" value="1">
-                    <input id="step-2" type="radio" name="step" value="2">
-                </div>
-                <form>
-                
-                </form>
-            </section>
+    <section class="request-section">
+        <h2 class="heading-secondary white-text">Закажите Мультикарту без комиссии</h2>
+        <div class="request__steps">
+            <div class="paragraph white-text">Шаг</div>
+            <input id="step-1" type="radio" name="step" value="1">
+            <input id="step-2" type="radio" name="step" value="2">
         </div>
-    </div>
+        <form class="form">
+            <input class="form__text form__text--full" id="form-name" type="text" name="form-name" value=""
+                   placeholder="Фамилия, Имя, Отчество">
+            <div class="form__inputs">
+                <input class="form__text form__text--half" id="form-phone" type="text" name="form-phone"
+                       value="" placeholder="Мобильный телефон">
+                <input class="form__text form__text--half" id="form-mail" type="text" name="form-mail" value=""
+                       placeholder="Электронная почта">
+            </div>
+            <div class="form__inputs">
+                <input class="form__text form__text--half" id="form-birth" type="text" name="form-birth"
+                       value="" placeholder="Дата рождения">
+                <input class="form__text form__text--half" id="form-sex" type="text" name="form-sex" value=""
+                       placeholder="Пол">
+            </div>
+            <input class="form__text form__text--full" id="form-country" type="text" name="form-country"
+                   value="" placeholder="Гражданство">
+            
+            <div class="form__currencies">
+                <div class="form__checkbox-item">
+                    <input id="form-rub" type="checkbox" name="form-rub">
+                    <label class="form__checkbox-label notes white-text" for="form-rub">Рубли</label>
+                </div>
+                <div class="form__checkbox-item">
+                    <input id="form-usd" type="checkbox" name="form-usd">
+                    <label class="form__checkbox-label notes white-text" for="form-usd">Доллары</label>
+                </div>
+                <div class="form__checkbox-item">
+                    <input id="form-eur" type="checkbox" name="form-eur">
+                    <label class="form__checkbox-label notes white-text" for="form-eur">Евро</label>
+                </div>
+            </div>
+            
+            <input class="form__text form__text--full" id="form-code" type="text" name="form-code" value=""
+                   placeholder="Кодовое слово на русском языке без цыфр">
+            <input class="form__text form__text--full" id="form-last-name" type="text" name="form-last-name"
+                   value="" placeholder="Имя на карте латиницей">
+            
+            <div class="form__submit-section">
+                <div class="form__checkbox-item">
+                    <input id="form-agree" type="checkbox" name="form-agree">
+                    <label class="form__checkbox-label paragraph white-text" for="form-agree">
+                        Я принимаю
+                        <a class="blue-text" href="/">условия передачи информации</a>
+                    </label>
+                </div>
+                <input class="btn btn--red" id="form-submit" type="submit" name="form-submit"
+                       value="Оформить карту">
+            </div>
+        </form>
+    </section>
+
 </main>
 </body>
 </html>
