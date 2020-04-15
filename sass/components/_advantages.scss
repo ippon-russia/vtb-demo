@@ -9,6 +9,7 @@
 }
 
 .advantages__item {
+    position: absolute;
     width: 50rem;
 }
 
@@ -17,25 +18,21 @@
 }
 
 .advantages__item-1 {
-    position: absolute;
     top: 29.5%;
-    left: 25%;
+    left: 15%;
 }
 
 .advantages__item-2 {
-    position: absolute;
     top: 27.5%;
-    left: 64%;
+    left: 69%;
 }
 
 .advantages__item-3 {
-    position: absolute;
     top: 82%;
-    left: 26%;
+    left: 16%;
 }
 
 .advantages__item-4 {
-    position: absolute;
     top: 66.5%;
-    left: 63%;
+    left: 68%;
 }

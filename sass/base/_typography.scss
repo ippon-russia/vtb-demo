@@ -73,7 +73,26 @@ body {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.4px;
-    color: #2f3441;
+}
+
+.paragraph-header {
+    font-family: HelveticaNeueCyr-Roman, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+}
+
+.notes {
+    font-family: HelveticaNeueCyr, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.1px;
 }
 
 .white-text {

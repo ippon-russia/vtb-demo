@@ -1,0 +1,29 @@
+.opportunities__img {
+    width: 50%;
+    background: url(../img/Rectangle.png) no-repeat center, linear-gradient(to top, #414141, #2f2f2f);
+}
+
+.opportunities {
+    width: 50%;
+    padding: 12rem 16rem 0 16rem;
+}
+
+.opportunities__header {
+    margin-bottom: 5.6rem;
+}
+
+.opportunity {
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.opportunity__logo-box {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1.6rem;
+}
+
+.opportunity__icon {
+    width: 100%;
+    height: 100%;
+}
