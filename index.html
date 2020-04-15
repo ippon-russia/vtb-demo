@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     
@@ -265,37 +265,62 @@
         </div>
     </section>
     
-    <div class="container">
-        <section class="support">
-            <div class="support__help">
-                <h2 class="heading-secondary">
+    <section class="subscribe-section">
+        <div class="subscribe">
+            <div>
+                <h2 class="heading-secondary subscribe__header">Каждую неделю мы рассказываем о чем-то важном</h2>
+                <div class="paragraph">Получайте советы по использованию Мультикарты с доставкой на ваш email</div>
+            </div>
+            <div>
+                <label for="email" class="label-text">Введите электронную почту</label>
+                <form class="subscribe__form">
+                    <input id="email" class="subscribe__input" type="text" placeholder="ivanovivan@example.com">
+                    <button type="submit" class="subscribe__button blue-text">
+                        <img src="./img/arrow-right.png">
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="subscribe__image-box">
+            <img class="subscribe__image" src="./img/subscribe.png" alt="hand">
+        </div>
+    </section>
+    
+    <section class="support-section">
+        <div class="support">
+            <a class="support__help"
+               href="https://www.vtb.ru/personal/karty/informacija-dlja-derzhatelej-kart/chastye-voprosy/"
+               target="_blank">
+                <h2 class="heading-secondary white-text">
                     Помощь<br>
                     и поддержка</h2>
-                <div class="paragraph support__text">
+                <div class="paragraph support__text white-text">
                     Ответы на частые вопросы
-                    <img class="support__chevron" src="./img/chevron-right-small.png" alt=">">
+                    <img class="support__chevron" src="./img/chevron-white.png" alt=">">
                 </div>
-            </div>
+            </a>
             <div class="support__container">
                 <div class="support__item">
-                    <div class="paragraph">Получить выписку</div>
-                    <img class="support__chevron" src="./img/chevron-right-small.png" alt=">">
+                    <div class="paragraph white-text">Получить выписку</div>
+                    <img class="support__chevron" src="./img/chevron-white.png" alt=">">
+                </div>
+                <a class="support__item" href="https://multibonus.ru/pravila" target="_blank">
+                    <div class="paragraph white-text">Правила программы лояльности</div>
+                    <img class="support__chevron" src="./img/chevron-white.png" alt=">">
+                </a>
+                <div class="support__item">
+                    <div class="paragraph white-text">Смена PIN кода</div>
+                    <img class="support__chevron" src="./img/chevron-white.png" alt=">">
                 </div>
                 <div class="support__item">
-                    <div class="paragraph">Правила программы лояльности</div>
-                    <img class="support__chevron" src="./img/chevron-right-small.png" alt=">">
-                </div>
-                <div class="support__item">
-                    <div class="paragraph">Смена PIN кода</div>
-                    <img class="support__chevron" src="./img/chevron-right-small.png" alt=">">
-                </div>
-                <div class="support__item">
-                    <div class="paragraph">Заблокировать карту</div>
-                    <img class="support__chevron" src="./img/chevron-right-small.png" alt=">">
+                    <div class="paragraph white-text">Заблокировать карту</div>
+                    <img class="support__chevron" src="./img/chevron-white.png" alt=">">
                 </div>
             </div>
-        </section>
-        
+        </div>
+    </section>
+    
+    <div class="container">
         <nav class="navigation-inline navigation-inline-left">
             <a id="how-to" class="navigation-inline__item navigation-inline__item--active grey-text" href=".">Как
                 оформить

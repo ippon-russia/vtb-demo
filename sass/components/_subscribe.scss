@@ -1,33 +1,46 @@
-.subscribe__logo-box {
-    width: 10rem;
-    height: 10rem;
-    margin-right: 5.5rem;
+.subscribe {
+    padding: 10% 5% 10% 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    width: 50%;
 }
 
-.subscribe__text {
-    width: 40%;
-    font-family: HelveticaNeueCyr, sans-serif;
-    font-size: 18px;
-    font-weight: 100;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.4px;
-    color: #2f3441;
+.subscribe__header {
+    margin-bottom: 1.5rem;
 }
 
 .subscribe__form {
-    height: 6.4rem;
-    width: 50%;
     display: flex;
-    justify-content: flex-end;
+    margin-top: 3.6rem;
 }
 
 .subscribe__input {
-    width: 30rem;
-    padding-left: 1.2rem;
-    margin: 0 3rem;
-    border-radius: 4px;
-    border: solid 1px #dce0eb;
-    background-color: #ffffff;
+    width: 40rem;
+    height: 6rem;
+    box-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.1), 0 2px 8px 0 rgba(0, 0, 0, 0.08);
+    border: none;
+    border-left: 4px solid #1e4bd2;
+    padding: 2rem;
+}
+
+.subscribe__button {
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    transform: translateX(-4rem);
+    cursor: pointer;
+}
+
+.subscribe__image-box {
+    width: 50%;
+    background: linear-gradient(to top, #414141, #2f2f2f);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.subscribe__image {
+    transform: translateX(-5%);
 }
