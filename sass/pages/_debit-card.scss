@@ -76,9 +76,11 @@
     justify-content: space-between;
 }
 
-.features {
+.features-section {
+    width: 100%;
     display: flex;
-    margin: 8rem 0;
+    height: 74.5vh;
+    //margin: 8rem 0;
 }
 
 .support {
