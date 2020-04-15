@@ -183,6 +183,14 @@ body {
   background: url(../img/privilage.png) no-repeat center center;
   background-size: cover; }
 
+.section-options {
+  width: 100%;
+  background: linear-gradient(to top, #414141, #2f2f2f);
+  padding: 12.5rem 0 15rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
 .container {
   max-width: 112rem;
   margin: 1rem auto; }
@@ -203,11 +211,6 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 8rem 0; }
-
-.options {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
 
 .full-width {
   width: 100%;
@@ -339,98 +342,6 @@ body {
   cursor: pointer;
   text-decoration: none; }
 
-.description__blocks {
-  display: flex; }
-
-.description__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-left: 8rem;
-  max-height: 48rem; }
-
-.description__container h2 {
-  font-family: HelveticaNeueCyrLight, sans-serif;
-  font-size: 4.2rem;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.14;
-  letter-spacing: 0.4px;
-  color: #2f3441; }
-
-.description__text {
-  width: 57rem;
-  font-family: HelveticaNeueCyr, sans-serif;
-  font-size: 1.8rem;
-  font-weight: 100;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.33;
-  letter-spacing: 0.4px;
-  color: #2f3441;
-  margin-top: 1.8rem; }
-
-.description__card {
-  width: 48rem;
-  height: 30rem;
-  border-radius: 16px;
-  background-image: url(../img/vtb-card.png); }
-
-.description__actions {
-  display: flex;
-  align-content: center; }
-  .description__actions > * {
-    margin-right: .5rem; }
-
-.description__features {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 6rem; }
-
-.description__feature-name {
-  font-family: HelveticaNeueCyr, sans-serif;
-  font-size: 1.8rem;
-  font-weight: 100;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.33;
-  letter-spacing: 0.4px;
-  color: #2f3441; }
-
-.description__feature-text {
-  font-family: HelveticaNeueCyrLight, sans-serif;
-  font-size: 3.2rem;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.91;
-  letter-spacing: 0.4px;
-  color: #2f3441; }
-
-.cashback__item {
-  width: 40.8rem;
-  height: 42.4rem;
-  padding: 5.4rem 4.7rem 0 3.2rem;
-  font-family: HelveticaNeueCyrLight, sans-serif;
-  font-size: 32px;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.13;
-  letter-spacing: 0.4px;
-  color: #ffffff;
-  background-size: cover; }
-
-.cashback__item-1 {
-  background-image: linear-gradient(rgba(28, 28, 28, 0.7), rgba(28, 28, 28, 0.7)), url(../img/cashback-1.png); }
-
-.cashback__item-2 {
-  background-image: linear-gradient(rgba(28, 28, 28, 0.7), rgba(28, 28, 28, 0.7)), url(../img/cashback-2.png); }
-
-.cashback__item-3 {
-  background-image: linear-gradient(rgba(28, 28, 28, 0.7), rgba(28, 28, 28, 0.7)), url(../img/cashback-3.png); }
-
 .btn {
   display: flex;
   border-radius: 4px;
@@ -470,60 +381,31 @@ body {
   height: 100%;
   width: 100%; }
 
-.capabilities__container {
-  width: 100%;
-  display: flex;
-  margin-top: 6.4rem; }
-
-.capabilities__column {
-  flex: 50%; }
-
-.capability {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 3rem; }
-
-.capability__logo-box {
-  min-width: 2.4rem;
-  min-height: 2.4rem;
-  margin-top: .4rem; }
-
-.capability__icon {
-  height: 100%;
-  width: 100%; }
-
-.capability__description {
-  margin-left: 2.6rem;
-  font-family: HelveticaNeueCyrThin, sans-serif;
-  font-size: 18px;
-  font-weight: 100;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.4px;
-  color: #2f3441; }
-
-.options__description {
-  width: 52rem;
-  margin-bottom: 6.4rem;
-  text-align: center; }
-
 .options__container {
-  width: 100%;
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
-  height: 78rem; }
+  height: 78rem;
+  width: 126rem;
+  margin: 8rem auto; }
+
+.option__header {
+  width: min-content;
+  white-space: nowrap; }
 
 .option {
   display: flex;
   flex-direction: column;
-  width: 34rem;
-  height: 34rem;
+  width: 40rem;
+  height: 40rem;
   background-color: #f3f7fa;
   padding: 2.8rem 5.4rem 5rem 5.4rem;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  box-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.1), 0 2px 8px 0 rgba(0, 0, 0, 0.08);
+  margin-bottom: 3rem;
+  cursor: pointer;
+  text-decoration: none; }
 
 .option__img {
   position: absolute;
@@ -599,12 +481,12 @@ body {
 
 .option__chevron {
   width: 2rem;
-  height: 4rem;
-  cursor: pointer; }
+  height: 4rem; }
 
 .option__text {
   margin-top: 1rem;
-  height: 4rem; }
+  height: 4rem;
+  text-decoration: none; }
 
 .features__image {
   width: 55rem;
@@ -639,36 +521,6 @@ body {
 .features__img {
   width: 100%;
   height: 100%; }
-
-.subscribe__logo-box {
-  width: 10rem;
-  height: 10rem;
-  margin-right: 5.5rem; }
-
-.subscribe__text {
-  width: 40%;
-  font-family: HelveticaNeueCyr, sans-serif;
-  font-size: 18px;
-  font-weight: 100;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.4px;
-  color: #2f3441; }
-
-.subscribe__form {
-  height: 6.4rem;
-  width: 50%;
-  display: flex;
-  justify-content: flex-end; }
-
-.subscribe__input {
-  width: 30rem;
-  padding-left: 1.2rem;
-  margin: 0 3rem;
-  border-radius: 4px;
-  border: solid 1px #dce0eb;
-  background-color: #ffffff; }
 
 .support__help {
   display: flex;
