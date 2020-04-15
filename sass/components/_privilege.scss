@@ -1,0 +1,30 @@
+.privilege {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 97rem;
+    margin: 0 auto;
+}
+
+.privilege__img-box {
+    min-width: 37.4rem;
+    min-height: 23.7rem;
+    margin-right: 9rem;
+}
+
+.privilege__img {
+    width: 100%;
+    height: 100%;
+}
+
+.privilege__info {
+    height: 23.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.privilege__link {
+    cursor: pointer;
+    text-decoration: none;
+}
