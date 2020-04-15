@@ -17,3 +17,9 @@
   src: url("fonts/HelveticaNeueCyr-Roman.woff") format('woff');
   font-weight: normal;
 }
+
+@font-face {
+  font-family: "HelveticaNeueCyr-Medium";
+  src: url("fonts/HelveticaNeueCyr-Medium.woff") format('woff');
+  font-weight: normal;
+}

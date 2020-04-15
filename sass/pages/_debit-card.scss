@@ -1,3 +1,20 @@
+.section-order {
+    width: 100%;
+    height: 100rem;
+    background: url(../img/card-background.png) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.section-advantages {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .container {
     max-width: 112rem;
     margin: 1rem auto;
