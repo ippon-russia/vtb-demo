@@ -5,9 +5,32 @@
     margin: 0 auto;
     padding: 3rem 0;
     
+    @include respond(phone) {
+        width: 100%;
+        justify-content: space-between;
+    }
+    
     & > * {
         margin-right: 4.8rem;
         cursor: pointer;
         text-decoration: none;
+        
+        @include respond(phone) {
+            margin: 0 2.4rem;
+        }
+    }
+}
+
+.header__burger {
+    display: none;
+    
+    @include respond(phone) {
+        display: flex;
+    }
+}
+
+.header__menu-item {
+    @include respond(phone) {
+        display: none;
     }
 }
