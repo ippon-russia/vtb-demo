@@ -78,6 +78,15 @@ body {
   line-height: 1.5;
   letter-spacing: 0.4px; }
 
+.heading-fourth {
+  font-family: HelveticaNeueCyr, sans-serif;
+  font-size: 2.2rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: 0.4px; }
+
 .paragraph {
   font-family: HelveticaNeueCyr, sans-serif;
   font-size: 1.8rem;
@@ -168,7 +177,7 @@ body {
 
 .section-order {
   width: 100%;
-  height: 100rem;
+  height: 75vh;
   background: url(../img/card-background.png) no-repeat center center;
   background-size: cover;
   -webkit-background-size: cover;
@@ -202,7 +211,7 @@ body {
   align-items: center; }
 
 .container {
-  max-width: 112rem;
+  max-width: 124rem;
   margin: 1rem auto; }
 
 .description {
@@ -253,7 +262,7 @@ body {
 
 .actions {
   display: flex;
-  justify-content: space-between;
+  align-items: flex-start;
   margin: 8rem 0; }
 
 .request-section {
@@ -267,7 +276,7 @@ body {
 .order {
   width: 50%;
   float: right;
-  padding: 25rem 15vw 35rem 0; }
+  padding: 5rem 12rem 5rem 0; }
 
 .order__actions {
   display: flex;
@@ -284,33 +293,43 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url(../img/vtb-card.png) no-repeat center center;
+  justify-content: center;
+  background: url(../img/linked-path.svg) no-repeat center center;
+  background-size: contain;
+  height: 76vh;
+  width: 72vw;
+  margin-top: 9rem;
+  position: relative; }
+
+.advantages__img-box {
+  width: 28%; }
+
+.advantages__img {
   width: 100%;
-  height: 83rem;
-  margin-top: 9rem; }
+  height: 100%; }
 
 .advantages__item {
   position: absolute;
-  width: 50rem; }
+  width: 45rem; }
 
 .advantages__header {
   margin-bottom: 1.6rem; }
 
 .advantages__item-1 {
-  top: 29.5%;
-  left: 15%; }
+  top: 16%;
+  left: 2%; }
 
 .advantages__item-2 {
-  top: 27.5%;
-  left: 69%; }
+  top: 14%;
+  left: 75%; }
 
 .advantages__item-3 {
-  top: 82%;
-  left: 16%; }
+  top: 77.5%;
+  left: 1%; }
 
 .advantages__item-4 {
-  top: 66.5%;
-  left: 68%; }
+  top: 59%;
+  left: 72%; }
 
 .opportunities__img {
   width: 50%;
@@ -632,15 +651,23 @@ body {
   margin-bottom: .8rem; }
 
 .action {
-  width: 33.333%;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  justify-content: flex-start; }
 
 .action__img-box {
   max-width: 5.6rem;
   max-height: 5.6rem;
   margin-bottom: 3rem;
   cursor: pointer; }
+
+.action__header {
+  margin-bottom: .8rem; }
+
+.action__chevron {
+  width: 1.8rem;
+  height: 3.2rem;
+  margin: auto 3rem; }
 
 .request__steps {
   display: flex;
