@@ -2,9 +2,9 @@
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
-    height: 78rem;
-    width: 126rem;
-    margin: 8rem auto;
+    height: 68rem;
+    width: 99rem;
+    margin: 4rem auto;
 }
 
 .option__header {
@@ -15,10 +15,10 @@
 .option {
     display: flex;
     flex-direction: column;
-    width: 40rem;
-    height: 40rem;
+    width: 30rem;
+    height: 30rem;
     background-color: #f3f7fa;
-    padding: 2.8rem 5.4rem 5rem 5.4rem;
+    padding: 2.8rem 4.4rem 5rem 4.4rem;
     position: relative;
     overflow: hidden;
     box-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.1), 0 2px 8px 0 rgba(0, 0, 0, 0.08);
