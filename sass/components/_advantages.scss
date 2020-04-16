@@ -2,15 +2,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url(../img/vtb-card.png) no-repeat center center;
-    width: 100%;
-    height: 83rem;
+    justify-content: center;
+    background: url(../img/linked-path.svg) no-repeat center center;
+    background-size: contain;
+    height: 76vh;
+    width: 72vw;
     margin-top: 9rem;
+    position: relative;
+}
+
+.advantages__img-box {
+    width: 28%;
+}
+
+.advantages__img {
+    width: 100%;
+    height: 100%;
 }
 
 .advantages__item {
     position: absolute;
-    width: 50rem;
+    width: 45rem;
 }
 
 .advantages__header {
@@ -18,21 +30,21 @@
 }
 
 .advantages__item-1 {
-    top: 29.5%;
-    left: 15%;
+    top: 16%;
+    left: 2%;
 }
 
 .advantages__item-2 {
-    top: 27.5%;
-    left: 69%;
+    top: 14%;
+    left: 75%;
 }
 
 .advantages__item-3 {
-    top: 82%;
-    left: 16%;
+    top: 77.5%;
+    left: 1%;
 }
 
 .advantages__item-4 {
-    top: 66.5%;
-    left: 68%;
+    top: 59%;
+    left: 72%;
 }

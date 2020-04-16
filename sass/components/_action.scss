@@ -1,7 +1,7 @@
 .action {
-    width: 33.333%;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 }
 
 .action__img-box {
@@ -9,4 +9,14 @@
     max-height: 5.6rem;
     margin-bottom: 3rem;
     cursor: pointer;
+}
+
+.action__header {
+    margin-bottom: .8rem;
+}
+
+.action__chevron {
+    width: 1.8rem;
+    height: 3.2rem;
+    margin: auto 3rem;
 }

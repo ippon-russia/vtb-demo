@@ -49,7 +49,9 @@
     <section class="section-advantages margin-section">
         <h2 class="heading-secondary">Преимущества карты</h2>
         <div class="advantages">
-            <img src="img/linked-path.svg" alt="path">
+            <div class="advantages__img-box">
+                 <img class="advantages__img" src="img/vtb-card.png" alt="path">
+            </div>
             <div class="advantages__item advantages__item-1">
                 <h3 class="heading-third advantages__header">Скидки до 30%</h3>
                 <div class="paragraph">При оплате покупок у партнеров Банка</div>
@@ -326,29 +328,31 @@
                 оформить
                 карту</a>
             <a id="docs" class="navigation-inline__item grey-text" href=".">Документы</a>
-            <a id="tax" class="navigation-inline__item grey-text" href=".">Тарифы и условия</a>
+            <a id="tax" class="navigation-inline__item grey-text" href="https://www.vtb.ru/personal/karty/tarify/" target="_blank">Тарифы и условия</a>
         </nav>
         
         <section class="actions">
             <div class="action">
                 <div class="action__img-box">
-                    <img src="./img/pen.svg" alt="pen">
+                    <img src="./img/Frame 7.png" alt="pen">
                 </div>
-                <h3 class="heading-third">Оформите заявку</h3>
+                <h4 class="heading-fourth action__header">Оформите заявку</h4>
                 <div class="paragraph">Заполните анкету на сайте Банка и ожидайте выпуска карты.</div>
             </div>
+            <img class="action__chevron" src="./img/chevron-right.png" alt="arrow">
             <div class="action">
                 <div class="action__img-box">
-                    <img src="./img/letter.svg" alt="letter">
+                    <img src="./img/Frame 8.png" alt="letter">
                 </div>
-                <h3 class="heading-third">Выберите способ получения</h3>
+                <h4 class="heading-fourth action__header">Выберите способ получения</h4>
                 <div class="paragraph">В отделении или курьером (для жителей Москвы и Санкт-Петербурга)</div>
             </div>
+            <img class="action__chevron" src="./img/chevron-right.png" alt="arrow">
             <div class="action">
                 <div class="action__img-box">
-                    <img src="./img/card.svg" alt="card">
+                    <img src="./img/Frame 9.png" alt="card">
                 </div>
-                <h3 class="heading-third">Получите карту</h3>
+                <h4 class="heading-fourth action__header">Получите карту</h4>
                 <div class="paragraph">Мы сообщим вам, как только карта будет готова. Не забудьте паспорт</div>
             </div>
         </section>
@@ -358,8 +362,8 @@
         <h2 class="heading-secondary white-text">Закажите Мультикарту без комиссии</h2>
         <div class="request__steps">
             <div class="paragraph white-text">Шаг</div>
-            <input id="step-1" type="radio" name="step" value="1">
-            <input id="step-2" type="radio" name="step" value="2">
+            <input class="request__radio-btn" id="step-1" type="radio" name="step" value="1" checked>
+            <input class="request__radio-btn" id="step-2" type="radio" name="step" value="2">
         </div>
         <form class="form">
             <input class="form__text form__text--full" id="form-name" type="text" name="form-name" value=""
