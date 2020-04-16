@@ -1,7 +1,13 @@
-.navigation-header {
-    width: 100%;
-    background-size: cover;
-    height: 8rem;
-    //background-image: url("../img/header-image.jpg");
-    background-color: #0a2896;
+.header-menu {
+    display: flex;
+    align-items: center;
+    width: 112rem;
+    margin: 0 auto;
+    padding: 3rem 0;
+    
+    & > * {
+        margin-right: 4.8rem;
+        cursor: pointer;
+        text-decoration: none;
+    }
 }
