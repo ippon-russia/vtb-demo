@@ -61,6 +61,15 @@ body {
   line-height: 1.45;
   letter-spacing: 0.4px; }
 
+.menu-item {
+  font-family: HelveticaNeueCyr-Medium, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.4px; }
+
 .paragraph {
   font-family: HelveticaNeueCyr, sans-serif;
   font-size: 1.8rem;
@@ -113,16 +122,20 @@ body {
 .margin-section {
   margin: 9rem 0; }
 
-.navigation-header {
-  width: 100%;
-  background-size: cover;
-  height: 8rem;
-  background-color: #0a2896; }
+.header-menu {
+  display: flex;
+  align-items: center;
+  width: 112rem;
+  margin: 0 auto;
+  padding: 3rem 0; }
+  .header-menu > * {
+    margin-right: 4.8rem;
+    cursor: pointer;
+    text-decoration: none; }
 
 .navigation-inline {
   display: flex;
-  justify-content: flex-end;
-  margin-top: 3rem; }
+  justify-content: flex-end; }
 
 .navigation-inline-left {
   justify-content: flex-start; }
@@ -152,7 +165,7 @@ body {
 .section-order {
   width: 100%;
   height: 75vh;
-  background: url(../img/card-background.png) no-repeat center center;
+  background: url(../img/card-background.png) no-repeat center center, linear-gradient(to top right, #494949, #282828);
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -186,7 +199,8 @@ body {
 
 .container {
   max-width: 124rem;
-  margin: 1rem auto; }
+  margin: 1rem auto;
+  padding: 3rem 0; }
 
 .description {
   display: flex;
@@ -250,7 +264,7 @@ body {
 .order {
   width: 50%;
   float: right;
-  padding: 5rem 12rem 5rem 0; }
+  padding: 0 12rem 5rem 3rem; }
 
 .order__actions {
   display: flex;
@@ -260,7 +274,7 @@ body {
     margin-right: .9rem; }
 
 .order__header {
-  margin-top: 9.5rem;
+  margin-top: 8rem;
   margin-bottom: 3rem; }
 
 .advantages {
