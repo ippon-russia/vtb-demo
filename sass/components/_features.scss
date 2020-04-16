@@ -1,4 +1,4 @@
-.features__image-box {
+.features__image-container {
     width: 50%;
     background: linear-gradient(to bottom, #e7e7e7, #e7e7e7), linear-gradient(to top, #414141, #2f2f2f);
     overflow: hidden;
@@ -8,15 +8,22 @@
     align-items: center;
 }
 
+.features__image {
+    width: 100%;
+    height: 100%;
+}
+
 .features {
     padding: 8% 5%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     width: 50%;
 }
 
 .features__list {
     list-style-type: none;
+    margin-top: 1.6rem;
     
     & > li {
         text-indent: -5px;
@@ -29,7 +36,7 @@
 }
 
 .features__apps {
-    margin-top: auto;
+    //margin-top: auto;
     display: flex;
     justify-content: flex-start;
 }
