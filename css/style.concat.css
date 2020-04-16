@@ -105,6 +105,24 @@ body {
   line-height: 1.5;
   letter-spacing: 0.4px; }
 
+.paragraph-secondary {
+  font-family: HelveticaNeueCyrLight, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.4px; }
+
+.small-link {
+  font-family: Arial, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.4px; }
+
 .paragraph-header {
   font-family: HelveticaNeueCyr-Roman, sans-serif;
   font-size: 1.8rem;
@@ -115,7 +133,7 @@ body {
   letter-spacing: 0.4px; }
 
 .notes {
-  font-family: HelveticaNeueCyr, sans-serif;
+  font-family: HelveticaNeueCyrLight, sans-serif;
   font-size: 1.4rem;
   font-weight: 100;
   font-stretch: normal;
@@ -144,6 +162,9 @@ body {
 
 .blue-text {
   color: #1e4bd2; }
+
+.grey-text-2 {
+  color: #6b7683; }
 
 .margin-section {
   margin: 9rem 0; }
@@ -190,7 +211,7 @@ body {
 
 .section-order {
   width: 100%;
-  height: 75vh;
+  height: 60rem;
   background: url(../img/card-background.png) no-repeat center center, linear-gradient(to top right, #494949, #282828);
   background-size: cover;
   -webkit-background-size: cover;
@@ -250,21 +271,15 @@ body {
   height: 21.2rem;
   background-color: #f3f7fa; }
 
-.subscribe {
-  display: flex;
-  align-items: center;
-  height: 21.2rem;
-  justify-content: space-between; }
-
 .features-section {
   width: 100%;
   display: flex;
-  height: 74.5vh; }
+  height: 70rem; }
 
 .subscribe-section {
   width: 100%;
   display: flex;
-  height: 74.5vh; }
+  height: 70rem; }
 
 .support-section {
   width: 100%;
@@ -327,7 +342,8 @@ body {
 
 .order__header {
   margin-top: 8rem;
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+  white-space: nowrap; }
 
 .advantages {
   display: flex;
@@ -421,7 +437,12 @@ body {
 
 .privilege__link {
   cursor: pointer;
-  text-decoration: none; }
+  text-decoration: none;
+  display: flex;
+  align-items: center; }
+
+.privilege__link-arrow {
+  margin-left: 1rem; }
 
 .btn {
   display: flex;
@@ -435,7 +456,8 @@ body {
   letter-spacing: 0.4px;
   text-decoration: none;
   border: none;
-  cursor: pointer; }
+  cursor: pointer;
+  white-space: nowrap; }
 
 .btn--red {
   color: #ffffff;
@@ -608,10 +630,11 @@ body {
   height: 100%; }
 
 .subscribe {
-  padding: 10% 5% 10% 20%;
+  padding: 10% 5% 10% 10%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: space-between;
   height: 100%;
   width: 50%; }
 
@@ -645,7 +668,7 @@ body {
   align-items: center; }
 
 .subscribe__image {
-  height: 70%;
+  width: 70%;
   transform: translateX(-5%); }
 
 .support {
@@ -714,8 +737,8 @@ body {
 
 .request__steps {
   display: flex;
-  width: 8%;
-  justify-content: space-between;
+  width: 23.5rem;
+  align-items: center;
   margin: 4rem 0; }
 
 .form {
@@ -749,14 +772,97 @@ body {
 
 .form__checkbox-item {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  position: relative; }
 
 .form__checkbox-label {
   margin-left: 1rem;
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+  position: relative;
+  display: flex;
+  align-items: center; }
 
 .form__submit-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 2rem; }
+  padding-left: 5rem; }
+
+.form__link {
+  text-decoration: none;
+  font-family: OpenSans, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.4px;
+  color: #00aaff;
+  margin-left: 1rem; }
+
+.request__step {
+  margin-right: 5rem; }
+
+.request__line {
+  border-top: 1px solid #ffffff;
+  width: 8rem; }
+
+.request__radio-btn {
+  min-width: 4.8rem;
+  min-height: 4.8rem;
+  background-color: #ffffff;
+  border: 3px solid transparent;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: HelveticaNeueCyr, sans-serif;
+  cursor: pointer; }
+
+.request__radio-btn--active {
+  border: solid 3px #00aaff; }
+
+.form-checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  left: -4rem; }
+
+.check-mark {
+  position: absolute;
+  left: -4rem;
+  height: 15px;
+  width: 15px;
+  border: 1.5px solid #ffffff;
+  background-color: #383838; }
+
+/* On mouse-over, add a grey background color */
+.form-checkbox:hover ~ .check-mark {
+  background-color: #ccc; }
+
+/* When the checkbox is checked, add a blue background */
+.form-checkbox:checked ~ .check-mark {
+  background-color: #ffffff; }
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.check-mark:after {
+  content: "";
+  position: absolute;
+  display: none; }
+
+/* Show the checkmark when checked */
+.form-checkbox:checked ~ .check-mark:after {
+  display: block; }
+
+/* Style the checkmark/indicator */
+.check-mark:after {
+  left: 4px;
+  top: 0;
+  width: 5px;
+  height: 10px;
+  border: solid #383838;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }

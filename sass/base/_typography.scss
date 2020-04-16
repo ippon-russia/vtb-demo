@@ -71,6 +71,26 @@ body {
     letter-spacing: 0.4px;
 }
 
+.paragraph-secondary {
+    font-family: HelveticaNeueCyrLight, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+}
+
+.small-link {
+    font-family: Arial, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+}
+
 .paragraph-header {
     font-family: HelveticaNeueCyr-Roman, sans-serif;
     font-size: 1.8rem;
@@ -82,7 +102,7 @@ body {
 }
 
 .notes {
-    font-family: HelveticaNeueCyr, sans-serif;
+    font-family: HelveticaNeueCyrLight, sans-serif;
     font-size: 1.4rem;
     font-weight: 100;
     font-stretch: normal;
@@ -117,3 +137,8 @@ body {
 .blue-text {
     color: #1e4bd2;
 }
+
+.grey-text-2 {
+    color: #6b7683;
+}
+

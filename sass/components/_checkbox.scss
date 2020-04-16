@@ -1,0 +1,52 @@
+.form-checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    left: -4rem;
+}
+
+.check-mark {
+    position: absolute;
+    left: -4rem;
+    height: 15px;
+    width: 15px;
+    border: 1.5px solid #ffffff;
+    background-color: #383838;
+}
+
+/* On mouse-over, add a grey background color */
+.form-checkbox:hover ~ .check-mark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.form-checkbox:checked ~ .check-mark {
+    background-color: #ffffff;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.check-mark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.form-checkbox:checked ~ .check-mark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.check-mark:after {
+    left: 4px;
+    top: 0;
+    width: 5px;
+    height: 10px;
+    border: solid #383838;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

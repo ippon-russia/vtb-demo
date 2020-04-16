@@ -1,7 +1,8 @@
 .request__steps {
     display: flex;
-    width: 8%;
-    justify-content: space-between;
+    width: 23.5rem;
+    //justify-content: flex-start;
+    align-items: center;
     margin: 4rem 0;
 }
 
@@ -43,20 +44,58 @@
 .form__checkbox-item {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .form__checkbox-label {
     margin-left: 1rem;
     font-size: 1.4rem;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .form__submit-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 2rem;
+    padding-left: 5rem;
+}
+
+.form__link {
+    text-decoration: none;
+    font-family: OpenSans, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.4px;
+    color: #00aaff;
+    margin-left: 1rem;
+}
+
+.request__step {
+    margin-right: 5rem;
+}
+
+.request__line {
+    border-top: 1px solid #ffffff;
+    width: 8rem;
 }
 
 .request__radio-btn {
+    min-width: 4.8rem;
+    min-height: 4.8rem;
+    background-color: #ffffff;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: HelveticaNeueCyr, sans-serif;
+    cursor: pointer;
+}
 
+.request__radio-btn--active {
+    border: solid 3px #00aaff;
 }
