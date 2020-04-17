@@ -36,6 +36,11 @@
     height: 65.6rem;
     background: url(../img/privilage.png) no-repeat center center;
     background-size: cover;
+    
+    @include respond(phone) {
+        height: 60rem;
+        background: url(../img/privilage-mobile.png) no-repeat center center;
+    }
 }
 
 .section-options {

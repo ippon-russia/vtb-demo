@@ -16,7 +16,7 @@
     margin: auto 2rem auto auto;
     
     @include respond(big-desktop) {
-        width: 25%;
+        width: 30%;
     }
     
     @include respond(phone) {

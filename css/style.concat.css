@@ -299,6 +299,10 @@ body {
   height: 65.6rem;
   background: url(../img/privilage.png) no-repeat center center;
   background-size: cover; }
+  @media only screen and (max-width: 37.5em) {
+    .section-privilege {
+      height: 60rem;
+      background: url(../img/privilage-mobile.png) no-repeat center center; } }
 
 .section-options {
   width: 100%;
@@ -407,7 +411,7 @@ body {
   margin: auto 2rem auto auto; }
   @media only screen and (min-width: 112.5em) {
     .order__card-box {
-      width: 25%; } }
+      width: 30%; } }
   @media only screen and (max-width: 37.5em) {
     .order__card-box {
       display: none; } }
@@ -593,11 +597,20 @@ body {
   align-items: center;
   width: 97rem;
   margin: 0 auto; }
+  @media only screen and (max-width: 37.5em) {
+    .privilege {
+      flex-direction: column;
+      width: 100%; } }
 
 .privilege__img-box {
   min-width: 37.4rem;
   min-height: 23.7rem;
   margin-right: 9rem; }
+  @media only screen and (max-width: 37.5em) {
+    .privilege__img-box {
+      min-width: 34.3rem;
+      min-height: 21.6rem;
+      margin: 5rem 1.6rem 3.2rem 3rem; } }
 
 .privilege__img {
   width: 100%;
@@ -609,6 +622,15 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around; }
+  @media only screen and (max-width: 37.5em) {
+    .privilege__info {
+      padding: 0 2.8rem;
+      margin-bottom: 11rem;
+      height: 17.5rem; } }
+
+@media only screen and (max-width: 37.5em) {
+  .privilege__info .paragraph {
+    font-size: 1.8rem; } }
 
 .privilege__link {
   cursor: pointer;
