@@ -62,6 +62,10 @@ body {
     font-style: normal;
     line-height: 1.45;
     letter-spacing: 0.4px;
+    
+    @include respond(phone) {
+        font-size: 1.8rem;
+    }
 }
 
 .menu-item {
