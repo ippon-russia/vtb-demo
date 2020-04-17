@@ -4,7 +4,7 @@
 }
 
 .answers {
-    width: 125rem;
+    max-width: 125rem;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,6 @@
 .answer {
     background-color: #e7e7e7;
     padding: 4rem;
-    //max-width: 125rem;
     width: 100%;
     margin-bottom: 2.4rem;
 }
