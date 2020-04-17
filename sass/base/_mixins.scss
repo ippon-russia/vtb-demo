@@ -3,13 +3,15 @@
 0 - 600px;    phone
 600px - 900px;    tabled
 900px - 1200px;   tablet landscape
-1200px - 1800px;  desktop
+1280px - 1800px;  desktop
+1440px - 1800px; small desktop
 1800px +;   big desktop
 
 $breakpoint values:
 - phone
 - tab-port
 - tab-land
+- small-desktop
 - big-desktop
 */
 //1em = 16px;
@@ -27,7 +29,12 @@ $breakpoint values:
         }
     }
     @if $breakpoint == tab-land {
-        @media only screen and (max-width: 75em) { // 1200px / 16px
+        @media only screen and (max-width: 80em) { // 1280px / 16px
+            @content
+        }
+    }
+    @if $breakpoint == small-desktop {
+        @media only screen and (max-width: 90em) { // 1440px / 16px
             @content
         }
     }

@@ -10,8 +10,12 @@
 }
 
 .order__card-box {
-    height: 80%;
+    width: 40%;
     margin: auto 2rem auto auto;
+    
+    @include respond(big-desktop) {
+        width: 25%;
+    }
     
     @include respond(phone) {
         display: none;
