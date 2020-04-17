@@ -60,6 +60,11 @@
     padding: 2rem;
 }
 
+.subscribe__input::placeholder {
+    font-size: 1.6rem;
+    color: #acb6c3;
+}
+
 .subscribe__button {
     text-decoration: none;
     border: none;
