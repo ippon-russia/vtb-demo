@@ -14,8 +14,11 @@
 }
 
 .features__image-box {
-    margin-right: auto;
-    height: 35rem;
+    
+    @include respond(phone) {
+        margin-right: auto;
+        height: 35rem;
+    }
 }
 
 .features__image {

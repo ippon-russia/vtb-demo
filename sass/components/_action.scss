@@ -3,13 +3,26 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    
+    @include respond(phone) {
+        flex-direction: row;
+    }
 }
 
 .action__img-box {
-    max-width: 5.6rem;
-    max-height: 5.6rem;
+    width: 5.6rem;
+    height: 5.6rem;
     margin-bottom: 3rem;
     cursor: pointer;
+    
+    @include respond(phone) {
+        min-width: 3.2rem;
+        min-height: 3.2rem;
+    }
+}
+.action__img-icon {
+    width: 100%;
+    height: 100%;
 }
 
 .action__header {
@@ -20,4 +33,8 @@
     width: 1.8rem;
     height: 3.2rem;
     margin: auto 3rem;
+    
+    @include respond(phone) {
+        display: none;
+    }
 }

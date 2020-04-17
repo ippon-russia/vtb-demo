@@ -63,6 +63,14 @@
     max-width: 124rem;
     margin: 1rem auto;
     padding: 10rem 0;
+    
+    @include respond(phone) {
+        width: 100%;
+        padding: 7rem 1.6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .features-section {
@@ -104,6 +112,11 @@
     display: flex;
     align-items: flex-start;
     margin: 8rem 0;
+    
+    @include respond(phone) {
+        flex-direction: column;
+        //height: 71.6rem;
+    }
 }
 
 .request-section {
