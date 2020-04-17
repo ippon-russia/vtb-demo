@@ -139,7 +139,7 @@ body {
 
 .notes {
   font-family: HelveticaNeueCyrLight, sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 100;
   font-stretch: normal;
   font-style: normal;
@@ -153,8 +153,7 @@ body {
   font-stretch: normal;
   font-style: normal;
   line-height: 1.5;
-  letter-spacing: normal;
-  color: #acb6c3; }
+  letter-spacing: normal; }
 
 .white-text {
   color: #ffffff; }
@@ -1022,6 +1021,10 @@ body {
   background-color: #ffffff;
   padding: 1rem;
   margin-bottom: 2.4rem; }
+
+.form__text::placeholder {
+  font-size: 1.6rem;
+  color: #acb6c3; }
 
 .form__text--full {
   width: 100%; }

@@ -25,6 +25,11 @@
     margin-bottom: 2.4rem;
 }
 
+.form__text::placeholder {
+    font-size: 1.6rem;
+    color: #acb6c3;
+}
+
 .form__text--full {
     width: 100%;
 }
