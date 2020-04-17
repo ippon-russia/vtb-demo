@@ -1,11 +1,13 @@
 .order__container {
     display: flex;
     align-items: center;
-    height: 50rem;
+    height: 60rem;
+    padding: 6rem;
     
     @include respond(phone) {
         flex-direction: column;
         height: 90rem;
+        padding: 0;
     }
 }
 
@@ -61,10 +63,11 @@
     }
     
     & > * {
-        margin-right: .9rem;
+        margin-right: 6rem;
     
         @include respond(phone) {
             margin-bottom: 2.4rem;
+            margin-right: 0;
         }
     }
 }
@@ -81,6 +84,10 @@
 }
 
 .order__text {
+    @include respond(big-desktop) {
+        width: 70%;
+    }
+    
     @include respond(phone) {
         padding: 1.6rem;
         text-align: left;

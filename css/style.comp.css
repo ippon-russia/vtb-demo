@@ -242,7 +242,7 @@ body {
 
 .section-order {
   width: 100%;
-  height: 60rem;
+  height: 70rem;
   background: url(../img/header-background.jpg) no-repeat center center, linear-gradient(to top right, #494949, #282828);
   background-size: cover;
   -webkit-background-size: cover;
@@ -264,6 +264,9 @@ body {
   display: flex;
   width: 100%;
   height: 91rem; }
+  @media only screen and (max-width: 37.5em) {
+    .section-opportunities {
+      height: 80rem; } }
 
 .section-privilege {
   width: 100%;
@@ -365,11 +368,13 @@ body {
 .order__container {
   display: flex;
   align-items: center;
-  height: 50rem; }
+  height: 60rem;
+  padding: 6rem; }
   @media only screen and (max-width: 37.5em) {
     .order__container {
       flex-direction: column;
-      height: 90rem; } }
+      height: 90rem;
+      padding: 0; } }
 
 .order__card-box {
   width: 40%;
@@ -413,10 +418,11 @@ body {
       margin: 0;
       padding: 1.6rem; } }
   .order__actions > * {
-    margin-right: .9rem; }
+    margin-right: 6rem; }
     @media only screen and (max-width: 37.5em) {
       .order__actions > * {
-        margin-bottom: 2.4rem; } }
+        margin-bottom: 2.4rem;
+        margin-right: 0; } }
 
 .order__header {
   margin-top: 8rem;
@@ -426,6 +432,10 @@ body {
     .order__header {
       margin: 1rem 1.6rem;
       text-align: start; } }
+
+@media only screen and (min-width: 112.5em) {
+  .order__text {
+    width: 70%; } }
 
 @media only screen and (max-width: 37.5em) {
   .order__text {
@@ -517,17 +527,30 @@ body {
 .opportunities__img {
   width: 50%;
   background: url(../img/Rectangle.png) no-repeat center, linear-gradient(to top, #414141, #2f2f2f); }
+  @media only screen and (max-width: 37.5em) {
+    .opportunities__img {
+      display: none; } }
 
 .opportunities {
   width: 50%;
   padding: 10rem 5rem 0 14rem; }
+  @media only screen and (max-width: 37.5em) {
+    .opportunities {
+      width: 100%;
+      padding: 1.6rem; } }
 
 .opportunities__header {
   margin-bottom: 5.6rem; }
+  @media only screen and (max-width: 37.5em) {
+    .opportunities__header {
+      margin-bottom: 3.2rem; } }
 
 .opportunity {
   display: flex;
   margin-bottom: 4rem; }
+  @media only screen and (max-width: 37.5em) {
+    .opportunity {
+      margin-bottom: 2.4rem; } }
 
 .opportunity__logo-box {
   width: 4rem;
