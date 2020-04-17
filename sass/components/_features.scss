@@ -6,6 +6,16 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    
+    @include respond(phone) {
+        height: 39rem;
+        width: 100%;
+    }
+}
+
+.features__image-box {
+    margin-right: auto;
+    height: 35rem;
 }
 
 .features__image {
@@ -19,11 +29,21 @@
     flex-direction: column;
     justify-content: space-around;
     width: 50%;
+    
+    @include respond(phone) {
+        justify-content: flex-start;
+        margin-top: 3.2rem;
+        width: 100%;
+    }
 }
 
 .features__list {
     list-style-type: none;
     margin-top: 1.6rem;
+    
+    @include respond(phone) {
+        margin-left: 0.5rem;
+    }
     
     & > li {
         text-indent: -5px;
@@ -36,9 +56,14 @@
 }
 
 .features__apps {
-    //margin-top: auto;
     display: flex;
     justify-content: flex-start;
+    
+    @include respond(phone) {
+        width: 100%;
+        margin-top: 3.2rem;
+        justify-content: space-between;
+    }
 }
 
 .features__img-box {
@@ -46,6 +71,12 @@
     height: 6rem;
     cursor: pointer;
     margin-right: 2.5rem;
+    
+    @include respond(phone) {
+        margin-right: 0;
+        width: 16rem;
+        height: 4.6rem;
+    }
 }
 
 .features__img {

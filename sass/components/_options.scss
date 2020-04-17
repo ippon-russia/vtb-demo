@@ -20,7 +20,7 @@
     margin-bottom: 4rem;
     
     @include respond(phone) {
-        width: 100%;
+        width: 90%;
         white-space: normal;
         margin-bottom: 3.2rem;
     }

@@ -292,6 +292,7 @@ body {
   height: 91rem; }
   @media only screen and (max-width: 37.5em) {
     .section-opportunities {
+      width: 100%;
       height: 80rem; } }
 
 .section-privilege {
@@ -301,8 +302,10 @@ body {
   background-size: cover; }
   @media only screen and (max-width: 37.5em) {
     .section-privilege {
+      width: 100%;
       height: 60rem;
-      background: url(../img/privilage-mobile.png) no-repeat center center; } }
+      background: url(../img/privilage-mobile.png) no-repeat center center;
+      background-size: cover; } }
 
 .section-options {
   width: 100%;
@@ -320,37 +323,22 @@ body {
   margin: 1rem auto;
   padding: 10rem 0; }
 
-.description {
-  display: flex;
-  flex-direction: column;
-  margin: 8rem 0; }
-
-.cashback {
-  max-width: 128rem;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between; }
-
-.capabilities {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 8rem 0; }
-
-.full-width {
-  width: 100%;
-  height: 21.2rem;
-  background-color: #f3f7fa; }
-
 .features-section {
   width: 100%;
   display: flex;
   height: 80rem; }
+  @media only screen and (max-width: 37.5em) {
+    .features-section {
+      flex-direction: column; } }
 
 .subscribe-section {
   width: 100%;
   display: flex;
   height: 70rem; }
+  @media only screen and (max-width: 37.5em) {
+    .subscribe-section {
+      height: 78.7rem;
+      flex-direction: column; } }
 
 .support-section {
   width: 100%;
@@ -359,6 +347,9 @@ body {
   justify-content: center;
   align-items: center;
   background: linear-gradient(to bottom, #e7e7e7, #e7e7e7), linear-gradient(to top, #414141, #2f2f2f); }
+  @media only screen and (max-width: 37.5em) {
+    .support-section {
+      height: 71.6rem; } }
 
 .actions-section {
   width: 100%;
@@ -709,7 +700,7 @@ body {
   margin-bottom: 4rem; }
   @media only screen and (max-width: 37.5em) {
     .option__header {
-      width: 100%;
+      width: 90%;
       white-space: normal;
       margin-bottom: 3.2rem; } }
 
@@ -832,6 +823,14 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center; }
+  @media only screen and (max-width: 37.5em) {
+    .features__image-container {
+      height: 39rem;
+      width: 100%; } }
+
+.features__image-box {
+  margin-right: auto;
+  height: 35rem; }
 
 .features__image {
   width: 100%;
@@ -843,10 +842,18 @@ body {
   flex-direction: column;
   justify-content: space-around;
   width: 50%; }
+  @media only screen and (max-width: 37.5em) {
+    .features {
+      justify-content: flex-start;
+      margin-top: 3.2rem;
+      width: 100%; } }
 
 .features__list {
   list-style-type: none;
   margin-top: 1.6rem; }
+  @media only screen and (max-width: 37.5em) {
+    .features__list {
+      margin-left: 0.5rem; } }
   .features__list > li {
     text-indent: -5px; }
   .features__list > li:before {
@@ -856,31 +863,64 @@ body {
 .features__apps {
   display: flex;
   justify-content: flex-start; }
+  @media only screen and (max-width: 37.5em) {
+    .features__apps {
+      width: 100%;
+      margin-top: 3.2rem;
+      justify-content: space-between; } }
 
 .features__img-box {
   width: 20.8rem;
   height: 6rem;
   cursor: pointer;
   margin-right: 2.5rem; }
+  @media only screen and (max-width: 37.5em) {
+    .features__img-box {
+      margin-right: 0;
+      width: 16rem;
+      height: 4.6rem; } }
 
 .features__img {
   width: 100%;
   height: 100%; }
 
 .subscribe {
-  padding: 10% 5% 10% 10%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  height: 100%;
+  margin: auto;
+  height: 40rem;
   width: 50%; }
+  @media only screen and (max-width: 37.5em) {
+    .subscribe {
+      padding: 3.2rem 1.6rem 5.4rem 1.6rem;
+      height: 44.2rem;
+      width: 100%;
+      order: 2; } }
 
 .subscribe__header {
   margin-bottom: 1.5rem; }
 
 .subscribe__text {
-  width: 100%; }
+  width: 41.4rem;
+  margin-left: auto;
+  margin-right: 12rem; }
+  @media only screen and (max-width: 37.5em) {
+    .subscribe__text {
+      width: 100%; } }
+
+@media only screen and (max-width: 37.5em) {
+  .subscribe__text-advice {
+    font-size: 1.8rem; } }
+
+.subscribe__form-container {
+  width: 41.4rem;
+  margin-left: auto;
+  margin-right: 12rem; }
+  @media only screen and (max-width: 37.5em) {
+    .subscribe__form-container {
+      width: 100%; } }
 
 .subscribe__form {
   display: flex;
@@ -907,10 +947,20 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center; }
+  @media only screen and (max-width: 37.5em) {
+    .subscribe__image-box {
+      display: block;
+      width: 100%;
+      height: 34.5rem;
+      order: 1; } }
 
 .subscribe__image {
   width: 70%;
   transform: translateX(-5%); }
+  @media only screen and (max-width: 37.5em) {
+    .subscribe__image {
+      width: 100%;
+      transform: scale(1.4) translateX(-12%) translateY(8%); } }
 
 .support {
   display: flex; }
