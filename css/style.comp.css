@@ -281,10 +281,13 @@ body {
 .section-options {
   width: 100%;
   background: linear-gradient(to top, #414141, #2f2f2f);
-  padding-top: 8rem;
+  padding: 8rem 0;
   display: flex;
   flex-direction: column;
   align-items: center; }
+  @media only screen and (max-width: 37.5em) {
+    .section-options {
+      padding: 6.4rem 1.6rem; } }
 
 .container {
   max-width: 124rem;
@@ -664,28 +667,43 @@ body {
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
-  height: 68rem;
-  width: 99rem;
+  height: 52rem;
+  width: 84rem;
   margin: 4rem auto; }
+  @media only screen and (max-width: 37.5em) {
+    .options__container {
+      width: 100%;
+      height: 100%;
+      flex-flow: nowrap;
+      flex-direction: column; } }
 
 .option__header {
   width: min-content;
   white-space: nowrap;
   margin-bottom: 4rem; }
+  @media only screen and (max-width: 37.5em) {
+    .option__header {
+      width: 100%;
+      white-space: normal;
+      margin-bottom: 3.2rem; } }
 
 .option {
   display: flex;
   flex-direction: column;
-  width: 30rem;
-  height: 30rem;
+  width: 26.5rem;
+  height: 26.5rem;
   background-color: #f3f7fa;
-  padding: 2.8rem 4.4rem 5rem 4.4rem;
+  padding: 1.8rem 1.4rem 4rem 3.4rem;
   position: relative;
   overflow: hidden;
   box-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.1), 0 2px 8px 0 rgba(0, 0, 0, 0.08);
   margin-bottom: 3rem;
   cursor: pointer;
   text-decoration: none; }
+  @media only screen and (max-width: 37.5em) {
+    .option {
+      width: 34.3rem;
+      height: 23.7rem; } }
 
 .option__img {
   position: absolute;
@@ -705,6 +723,9 @@ body {
   left: 60%;
   width: 40%;
   height: 50%; }
+  @media only screen and (max-width: 37.5em) {
+    .option__img-2 {
+      height: 65%; } }
 
 .option__img-3 {
   background-image: url(../img/image-26.png);
@@ -712,6 +733,9 @@ body {
   left: 67%;
   width: 33%;
   height: 50%; }
+  @media only screen and (max-width: 37.5em) {
+    .option__img-3 {
+      height: 60%; } }
 
 .option__img-4 {
   background-image: url(../img/image-bag.png);
@@ -719,6 +743,9 @@ body {
   left: 70%;
   width: 30%;
   height: 50%; }
+  @media only screen and (max-width: 37.5em) {
+    .option__img-4 {
+      height: 70%; } }
 
 .option__img-5 {
   background-image: url(../img/image-33.png);
@@ -762,6 +789,9 @@ body {
 .option__chevron {
   width: 2rem;
   height: 4rem; }
+  @media only screen and (max-width: 37.5em) {
+    .option__chevron {
+      display: none; } }
 
 .option__text {
   margin-top: 1rem;
