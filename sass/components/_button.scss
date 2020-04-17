@@ -12,6 +12,12 @@
     border: none;
     cursor: pointer;
     white-space: nowrap;
+    text-align: center;
+    
+    @include respond(phone) {
+        width: 100%;
+        justify-content: center;
+    }
 }
 
 .btn--red {
@@ -21,8 +27,6 @@
 }
 
 .btn--transparent {
-    //background-color: #ffffff;
-    //color: #6b7683;
     margin: 2rem 2.2rem;;
 }
 
