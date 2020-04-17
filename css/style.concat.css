@@ -52,6 +52,9 @@ html {
   font-size: 62.5%;
   /* 1rem = 10px; 10px / 16px = 62.5% */ }
 
+main {
+  overflow-x: hidden; }
+
 body {
   /*Borders and padding not added to box width/height*/
   box-sizing: border-box; }
@@ -332,6 +335,7 @@ body {
   padding: 10rem 0; }
   @media only screen and (max-width: 37.5em) {
     .container {
+      margin: 0;
       width: 100%;
       padding: 7rem 1.6rem 0 1.6rem;
       display: flex;
@@ -714,7 +718,8 @@ body {
       width: 100%;
       height: 100%;
       flex-flow: nowrap;
-      flex-direction: column; } }
+      flex-direction: column;
+      align-items: center; } }
 
 .option__header {
   width: min-content;
@@ -853,7 +858,8 @@ body {
 @media only screen and (max-width: 37.5em) {
   .features__image-box {
     margin-right: auto;
-    height: 35rem; } }
+    height: 35rem;
+    width: 30.5rem; } }
 
 .features__image {
   width: 100%;
@@ -987,7 +993,7 @@ body {
   @media only screen and (max-width: 37.5em) {
     .subscribe__image {
       width: 100%;
-      transform: scale(1.4) translateX(-12%) translateY(8%); } }
+      transform: scale(1.4) translateX(-12%) translateY(5%); } }
 
 .support {
   display: flex; }
