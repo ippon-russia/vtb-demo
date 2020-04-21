@@ -77,6 +77,9 @@ body {
   line-height: 0.92;
   letter-spacing: 0.4px;
   color: #ffffff; }
+  @media only screen and (max-width: 64em) {
+    .heading-primary {
+      font-size: 3.4rem; } }
   @media only screen and (max-width: 37.5em) {
     .heading-primary {
       font-size: 2.8rem; } }
@@ -101,6 +104,9 @@ body {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.4px; }
+  @media only screen and (max-width: 64em) {
+    .heading-third {
+      font-size: 2.5rem; } }
   @media only screen and (max-width: 37.5em) {
     .heading-third {
       font-size: 2rem;
@@ -135,6 +141,9 @@ body {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.4px; }
+  @media only screen and (max-width: 64em) {
+    .paragraph {
+      font-size: 1.7rem; } }
   @media only screen and (max-width: 37.5em) {
     .paragraph {
       font-size: 1.6rem; } }
@@ -147,6 +156,9 @@ body {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.4px; }
+  @media only screen and (max-width: 64em) {
+    .paragraph-secondary {
+      font-size: 1.7rem; } }
   @media only screen and (max-width: 37.5em) {
     .paragraph-secondary {
       font-size: 1.6rem; } }
@@ -214,6 +226,9 @@ body {
   width: 112rem;
   margin: 0 auto;
   padding: 3rem 0; }
+  @media only screen and (max-width: 64em) {
+    .header-menu {
+      padding: 3rem; } }
   @media only screen and (max-width: 37.5em) {
     .header-menu {
       width: 100%;
@@ -311,6 +326,9 @@ body {
   height: 65.6rem;
   background: url(../img/privilage.png) no-repeat center center;
   background-size: cover; }
+  @media only screen and (max-width: 64em) {
+    .section-privilege {
+      height: 55rem; } }
   @media only screen and (max-width: 37.5em) {
     .section-privilege {
       width: 100%;
@@ -333,6 +351,9 @@ body {
   max-width: 124rem;
   margin: 1rem auto;
   padding: 10rem 0; }
+  @media only screen and (max-width: 64em) {
+    .container {
+      padding: 5rem; } }
   @media only screen and (max-width: 37.5em) {
     .container {
       margin: 0;
@@ -354,6 +375,9 @@ body {
   width: 100%;
   display: flex;
   height: 70rem; }
+  @media only screen and (max-width: 64em) {
+    .subscribe-section {
+      height: 55rem; } }
   @media only screen and (max-width: 37.5em) {
     .subscribe-section {
       height: 78.7rem;
@@ -366,6 +390,9 @@ body {
   justify-content: center;
   align-items: center;
   background: linear-gradient(to bottom, #e7e7e7, #e7e7e7), linear-gradient(to top, #414141, #2f2f2f); }
+  @media only screen and (max-width: 64em) {
+    .support-section {
+      height: 35rem; } }
   @media only screen and (max-width: 37.5em) {
     .support-section {
       height: 71.6rem; } }
@@ -451,6 +478,9 @@ body {
   height: 100%;
   width: 50%;
   padding: 0 12rem 5rem 3rem; }
+  @media only screen and (max-width: 64em) {
+    .order {
+      padding-right: 6rem; } }
   @media only screen and (max-width: 37.5em) {
     .order {
       margin-top: 3rem;
@@ -462,6 +492,9 @@ body {
   display: flex;
   align-items: center;
   margin-top: 4rem; }
+  @media only screen and (max-width: 64em) {
+    .order__actions {
+      width: 100%; } }
   @media only screen and (max-width: 37.5em) {
     .order__actions {
       flex-direction: column;
@@ -469,6 +502,9 @@ body {
       padding: 1.6rem; } }
   .order__actions > * {
     margin-right: 6rem; }
+    @media only screen and (max-width: 64em) {
+      .order__actions > * {
+        margin-right: .5rem; } }
     @media only screen and (max-width: 37.5em) {
       .order__actions > * {
         margin-bottom: 2.4rem;
@@ -503,6 +539,9 @@ body {
   width: 110rem;
   margin-top: 9rem;
   position: relative; }
+  @media only screen and (max-width: 64em) {
+    .advantages {
+      width: 75%; } }
   @media only screen and (max-width: 37.5em) {
     .advantages {
       height: 80rem;
@@ -533,6 +572,9 @@ body {
   @media only screen and (max-width: 80em) {
     .advantages__item {
       width: 35rem; } }
+  @media only screen and (max-width: 64em) {
+    .advantages__item {
+      width: 30rem; } }
   @media only screen and (max-width: 37.5em) {
     .advantages__item {
       align-self: flex-start;
@@ -559,20 +601,32 @@ body {
 .advantages__item-1 {
   top: 16.5%;
   left: 2%; }
+  @media only screen and (max-width: 64em) {
+    .advantages__item-1 {
+      left: -7%; } }
 
 .advantages__item-2 {
   top: 14.5%;
   left: 75%; }
+  @media only screen and (max-width: 64em) {
+    .advantages__item-2 {
+      left: 80%; } }
 
 .advantages__item-3 {
   top: 77.5%;
   left: 1%; }
+  @media only screen and (max-width: 64em) {
+    .advantages__item-3 {
+      left: -8%; } }
   .advantages__item-3 a {
     white-space: nowrap; }
 
 .advantages__item-4 {
   top: 60%;
   left: 72%; }
+  @media only screen and (max-width: 64em) {
+    .advantages__item-4 {
+      left: 77%; } }
 
 .opportunities__img {
   width: 50%;
@@ -584,6 +638,9 @@ body {
 .opportunities {
   width: 50%;
   padding: 10rem 5rem 0 14rem; }
+  @media only screen and (max-width: 64em) {
+    .opportunities {
+      padding: 5rem 5rem 0 5rem; } }
   @media only screen and (max-width: 37.5em) {
     .opportunities {
       width: 100%;
@@ -626,6 +683,9 @@ body {
   min-width: 37.4rem;
   min-height: 23.7rem;
   margin-right: 9rem; }
+  @media only screen and (max-width: 64em) {
+    .privilege__img-box {
+      margin: 0 2rem; } }
   @media only screen and (max-width: 37.5em) {
     .privilege__img-box {
       min-width: 34.3rem;
@@ -710,8 +770,8 @@ body {
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
-  height: 52rem;
-  width: 84rem;
+  height: 56rem;
+  width: 96rem;
   margin: 4rem auto; }
   @media only screen and (max-width: 37.5em) {
     .options__container {
@@ -734,8 +794,8 @@ body {
 .option {
   display: flex;
   flex-direction: column;
-  width: 26.5rem;
-  height: 26.5rem;
+  width: 30rem;
+  height: 30rem;
   background-color: #f3f7fa;
   padding: 1.8rem 1.4rem 4rem 3.4rem;
   position: relative;
@@ -921,6 +981,9 @@ body {
   margin: auto;
   height: 40rem;
   width: 50%; }
+  @media only screen and (max-width: 64em) {
+    .subscribe {
+      padding-left: 3rem; } }
   @media only screen and (max-width: 37.5em) {
     .subscribe {
       padding: 3.2rem 1.6rem 5.4rem 1.6rem;
@@ -997,6 +1060,9 @@ body {
 
 .support {
   display: flex; }
+  @media only screen and (max-width: 64em) {
+    .support {
+      margin-left: 1rem; } }
   @media only screen and (max-width: 37.5em) {
     .support {
       flex-direction: column;
@@ -1208,6 +1274,8 @@ body {
   border-radius: 50%;
   text-align: center;
   font-size: 2.2rem;
+  line-height: 4.4rem;
+  vertical-align: center;
   font-family: HelveticaNeueCyr, sans-serif;
   cursor: pointer; }
 

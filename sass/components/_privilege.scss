@@ -16,6 +16,10 @@
     min-height: 23.7rem;
     margin-right: 9rem;
     
+    @include respond(tab-port) {
+        margin: 0 2rem;
+    }
+    
     @include respond(phone) {
         min-width: 34.3rem;
         min-height: 21.6rem;

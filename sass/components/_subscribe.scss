@@ -7,6 +7,10 @@
     height: 40rem;
     width: 50%;
     
+    @include respond(tab-port) {
+        padding-left: 3rem;
+    }
+    
     @include respond(phone) {
         padding: 3.2rem 1.6rem 5.4rem 1.6rem;
         height: 44.2rem;

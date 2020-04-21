@@ -2,8 +2,8 @@
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
-    height: 52rem;
-    width: 84rem;
+    height: 56rem;
+    width: 96rem;
     margin: 4rem auto;
     
     @include respond(phone) {
@@ -30,8 +30,8 @@
 .option {
     display: flex;
     flex-direction: column;
-    width: 26.5rem;
-    height: 26.5rem;
+    width: 30rem;
+    height: 30rem;
     background-color: #f3f7fa;
     padding: 1.8rem 1.4rem 4rem 3.4rem;
     position: relative;

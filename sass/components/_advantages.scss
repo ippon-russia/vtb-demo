@@ -10,6 +10,10 @@
     margin-top: 9rem;
     position: relative;
     
+    @include respond(tab-port) {
+        width: 75%;
+    }
+    
     @include respond(phone) {
         height: 80rem;
         width: 100%;
@@ -48,6 +52,10 @@
         width: 35rem;
     }
     
+    @include respond(tab-port) {
+        width: 30rem;
+    }
+    
     @include respond(phone) {
         align-self: flex-start;
         display: flex;
@@ -79,16 +87,28 @@
 .advantages__item-1 {
     top: 16.5%;
     left: 2%;
+    
+    @include respond(tab-port) {
+        left: -7%;
+    }
 }
 
 .advantages__item-2 {
     top: 14.5%;
     left: 75%;
+    
+    @include respond(tab-port) {
+        left: 80%;
+    }
 }
 
 .advantages__item-3 {
     top: 77.5%;
     left: 1%;
+    
+    @include respond(tab-port) {
+        left: -8%;
+    }
     
     a {
         white-space: nowrap;
@@ -98,4 +118,8 @@
 .advantages__item-4 {
     top: 60%;
     left: 72%;
+    
+    @include respond(tab-port) {
+        left: 77%;
+    }
 }

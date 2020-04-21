@@ -1,6 +1,10 @@
 .support {
     display: flex;
     
+    @include respond(tab-port) {
+        margin-left: 1rem;
+    }
+    
     @include respond(phone) {
         flex-direction: column;
         width: 100%;
