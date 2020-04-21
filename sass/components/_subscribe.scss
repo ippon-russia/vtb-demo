@@ -11,6 +11,10 @@
         padding-left: 3rem;
     }
     
+    @include respond(tab-small) {
+        padding: 1.6rem;
+    }
+    
     @include respond(phone) {
         padding: 3.2rem 1.6rem 5.4rem 1.6rem;
         height: 44.2rem;
@@ -27,6 +31,10 @@
     width: 41.4rem;
     margin-left: auto;
     margin-right: 12rem;
+    
+    @include respond(tab-small) {
+        width: 100%;
+    }
     
     @include respond(phone) {
         width: 100%;
@@ -62,6 +70,10 @@
     border: none;
     border-left: 4px solid #1e4bd2;
     padding: 2rem;
+    
+    @include respond(tab-small) {
+        width: 80%;
+    }
 }
 
 .subscribe__input::placeholder {

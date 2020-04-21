@@ -7,6 +7,11 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     
+    @include respond(tab-small) {
+        height: 115rem;
+        background: linear-gradient(to top, #414141, #2f2f2f);
+    }
+    
     @include respond(phone) {
         height: 91.8rem;
         background: linear-gradient(to top, #414141, #2f2f2f);
@@ -19,12 +24,22 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    
+    @include respond(tab-small) {
+        height: 100rem;
+        margin-bottom: 6rem;
+    }
 }
 
 .section-opportunities {
     display: flex;
     width: 100%;
     height: 91rem;
+    
+    @include respond(tab-small) {
+        width: 100%;
+        height: 72rem;
+    }
     
     @include respond(phone) {
         width: 100%;
@@ -40,6 +55,13 @@
     
     @include respond(tab-port) {
         height: 55rem;
+    }
+    
+    @include respond(tab-small) {
+        width: 100%;
+        height: 60rem;
+        background: url(../img/privilage-mobile.png) no-repeat center center;
+        background-size: cover;
     }
     
     @include respond(phone) {
@@ -58,6 +80,10 @@
     flex-direction: column;
     align-items: center;
     
+    @include respond(tab-small) {
+        height: 130rem;
+    }
+    
     @include respond(phone) {
         padding: 6.4rem 1.6rem;
     }
@@ -70,6 +96,11 @@
     
     @include respond(tab-port) {
         padding: 5rem;
+    }
+    
+    @include respond(tab-small) {
+        margin-top: 3rem;
+        height: 52rem;
     }
     
     @include respond(phone) {
@@ -86,6 +117,10 @@
     width: 100%;
     display: flex;
     height: 80rem;
+    
+    @include respond(tab-small) {
+        height: 55rem;
+    }
     
     @include respond(phone) {
         flex-direction: column;
@@ -119,6 +154,10 @@
         height: 35rem;
     }
     
+    @include respond(tab-small) {
+        height: 76rem;
+    }
+    
     @include respond(phone) {
         height: 71.6rem;
     }
@@ -129,6 +168,10 @@
     display: flex;
     align-items: flex-start;
     margin: 8rem 0;
+    
+    @include respond(tab-small) {
+        flex-direction: column;
+    }
     
     @include respond(phone) {
         flex-direction: column;
@@ -143,8 +186,12 @@
     align-items: center;
     padding: 7rem 0;
     
+    @include respond(tab-small) {
+        height: 100rem;
+    }
+    
     @include respond(phone) {
-        height: 140rem;
+        height: 145rem;
         padding: 6.4rem 1.6rem;
     }
 }

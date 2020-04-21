@@ -3,6 +3,10 @@
     width: 23.5rem;
     align-items: center;
     margin: 4rem 0;
+    
+    @include respond(phone) {
+        height: 5rem;
+    }
 }
 
 .form {

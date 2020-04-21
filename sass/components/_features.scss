@@ -76,6 +76,11 @@
     cursor: pointer;
     margin-right: 2.5rem;
     
+    @include respond(tab-small) {
+        width: 16rem;
+        height: 4.6rem;
+    }
+    
     @include respond(phone) {
         margin-right: 0;
         width: 16rem;

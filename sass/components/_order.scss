@@ -4,6 +4,16 @@
     height: 60rem;
     padding: 6rem;
     
+    @include respond(tab-small) {
+        padding: 1.6rem;
+    }
+    
+    @include respond(tab-small) {
+        flex-direction: column;
+        height: 105rem;
+        padding: 0;
+    }
+    
     @include respond(phone) {
         flex-direction: column;
         height: 90rem;
@@ -19,6 +29,10 @@
         width: 30%;
     }
     
+    @include respond(tab-small) {
+        display: none;
+    }
+    
     @include respond(phone) {
         display: none;
     }
@@ -26,6 +40,11 @@
 
 .order__card-box--responsive {
     display: none;
+    
+    @include respond(tab-small) {
+        margin: 3rem auto;
+        display: block;
+    }
     
     @include respond(phone) {
         margin: 3rem auto;
@@ -45,6 +64,12 @@
     
     @include respond(tab-port) {
         padding-right: 6rem;
+    }
+    
+    @include respond(tab-small) {
+        margin-top: 3rem;
+        width: 85%;
+        padding: 0;
     }
     
     @include respond(phone) {
@@ -75,6 +100,10 @@
     
         @include respond(tab-port) {
             margin-right: .5rem;
+        }
+    
+        @include respond(tab-small) {
+            margin-right: 3rem;
         }
         
         @include respond(phone) {
