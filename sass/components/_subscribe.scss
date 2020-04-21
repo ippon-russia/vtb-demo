@@ -108,6 +108,11 @@
     width: 70%;
     transform: translateX(-5%);
     
+    @include respond(tab-small) {
+        width: 100%;
+        transform: scale(1.1) translateX(-8%) translateY(5%);
+    }
+    
     @include respond(phone) {
         width: 100%;
         transform: scale(1.4) translateX(-12%) translateY(5%);

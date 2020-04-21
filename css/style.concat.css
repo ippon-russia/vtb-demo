@@ -234,6 +234,7 @@ body {
       padding: 3rem; } }
   @media only screen and (max-width: 37.5em) {
     .header-menu {
+      padding: 3rem 0;
       width: 100%;
       justify-content: space-between; } }
   .header-menu > * {
@@ -369,6 +370,7 @@ body {
       height: 130rem; } }
   @media only screen and (max-width: 37.5em) {
     .section-options {
+      height: 100%;
       padding: 6.4rem 1.6rem; } }
 
 .container {
@@ -384,6 +386,7 @@ body {
       height: 52rem; } }
   @media only screen and (max-width: 37.5em) {
     .container {
+      height: 100%;
       margin: 0;
       width: 100%;
       padding: 7rem 1.6rem 0 1.6rem;
@@ -400,6 +403,7 @@ body {
       height: 55rem; } }
   @media only screen and (max-width: 37.5em) {
     .features-section {
+      height: 100%;
       flex-direction: column; } }
 
 .subscribe-section {
@@ -935,6 +939,7 @@ body {
       margin-bottom: 4rem; } }
   @media only screen and (max-width: 37.5em) {
     .option {
+      margin-bottom: 3rem;
       width: 34.3rem;
       height: 23.7rem; } }
 
@@ -1195,6 +1200,10 @@ body {
 .subscribe__image {
   width: 70%;
   transform: translateX(-5%); }
+  @media only screen and (max-width: 53em) {
+    .subscribe__image {
+      width: 100%;
+      transform: scale(1.1) translateX(-8%) translateY(5%); } }
   @media only screen and (max-width: 37.5em) {
     .subscribe__image {
       width: 100%;
@@ -1261,6 +1270,10 @@ body {
     .support__container {
       margin: auto;
       max-width: 95%; } }
+  @media only screen and (max-width: 37.5em) {
+    .support__container {
+      margin: auto;
+      max-width: 65rem; } }
 
 .support__item {
   display: flex;

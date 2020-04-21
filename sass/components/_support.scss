@@ -66,9 +66,13 @@
     max-width: 65rem;
     
     @include respond(tab-small) {
-        //align-items: center;
         margin: auto;
         max-width: 95%;
+    }
+    
+    @include respond(phone) {
+        margin: auto;
+        max-width: 65rem;
     }
 }
 
