@@ -29,6 +29,11 @@
         height: 100rem;
         margin-bottom: 6rem;
     }
+    
+    @include respond(phone) {
+        height: 100%;
+        margin-bottom: 6rem;
+    }
 }
 
 .section-opportunities {
@@ -86,7 +91,7 @@
     
     @include respond(phone) {
         height: 100%;
-        padding: 6.4rem 1.6rem;
+        padding: 6.4rem 1.6rem 2.4rem 1.6rem;
     }
 }
 
@@ -125,7 +130,7 @@
     }
     
     @include respond(phone) {
-        height: 100%;
+        height: 80rem;
         flex-direction: column;
     }
 }
